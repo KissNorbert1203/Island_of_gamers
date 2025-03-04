@@ -9,7 +9,9 @@ body {
 body {
     background-color: rgb(125, 125, 125);
 }
-
+#feher{
+    color: white;
+}
 header {
     margin-left: -8px;
     margin-right: -8px;
@@ -36,7 +38,17 @@ header {
 #cim {
     color: rgb(255, 255, 255);
 }
-
+#jatekcim{
+    color: rgb(255, 255, 255);
+    height: 20px;
+    font-size: 35px;
+}
+#h1{
+    font-size: 25px;
+}
+#jateklogo{
+    height: 94px;
+}
 #fejlecelem {
     padding-left: 15%;
     list-style-type: none;
@@ -226,7 +238,9 @@ p {
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
 }
-
+.hamburger-menu{
+    margin-left: -250px;
+}
 #menu__toggle {
     opacity: 0;
 }
@@ -334,6 +348,15 @@ p {
 }
 
 @media only screen and (max-width: 1090px) {
+    html{
+        margin-right: 20px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    header{
+        margin-right: -12px;
+    }
     .gallery {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
@@ -400,10 +423,14 @@ p {
 @media only screen and (max-width: 734px) {
     #elsokep {
         width: 100%;
+        margin-right: 10px;
     }
     h3{
         font-size: 40px;
         text-align: left;
+    }
+    p{
+        font-size: 21px;
     }
 }
 @media only screen and (max-width: 715px) {
@@ -412,17 +439,7 @@ p {
     }
 }
 @media only screen and (max-width: 641px) {
-    .menu__box {
-        position: fixed;
-        display: block;
-        right: -200px;
-        width: 200px;
-        height: 113%;
-        margin: 0;
-    }
-    #menu__toggle:checked body {
-        
-    }
+    
 }
 @media only screen and (max-width: 625px) {
     .gallery {
